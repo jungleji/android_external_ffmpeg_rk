@@ -272,9 +272,6 @@ void av_register_all(void)
     REGISTER_DEMUXER  (LIBMODPLUG, libmodplug);
 #endif
     /* protocols */
-#if FF_API_APPLEHTTP_PROTO
-    REGISTER_PROTOCOL (APPLEHTTP, applehttp);
-#endif
     REGISTER_PROTOCOL (BLURAY, bluray);
     REGISTER_PROTOCOL (CACHE, cache);
     REGISTER_PROTOCOL (CONCAT, concat);

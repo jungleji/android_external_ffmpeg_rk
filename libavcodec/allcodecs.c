@@ -194,8 +194,6 @@ void avcodec_register_all(void)
     REGISTER_ENCDEC  (PNG, png);
     REGISTER_ENCDEC  (PPM, ppm);
     REGISTER_ENCDEC  (PRORES, prores);
-    REGISTER_ENCODER (PRORES_ANATOLIY, prores_anatoliy);
-    REGISTER_ENCODER (PRORES_KOSTYA, prores_kostya);
     REGISTER_DECODER (PRORES_LGPL, prores_lgpl);
     REGISTER_DECODER (PTX, ptx);
     REGISTER_DECODER (QDRAW, qdraw);
@@ -451,7 +449,6 @@ void avcodec_register_all(void)
     REGISTER_ENCODER (LIBVO_AACENC, libvo_aacenc);
     REGISTER_ENCODER (LIBVO_AMRWBENC, libvo_amrwbenc);
     REGISTER_ENCDEC  (LIBVORBIS, libvorbis);
-    REGISTER_ENCDEC  (LIBVPX, libvpx);
     REGISTER_ENCODER (LIBX264, libx264);
     REGISTER_ENCODER (LIBX264RGB, libx264rgb);
     REGISTER_ENCODER (LIBXAVS, libxavs);
